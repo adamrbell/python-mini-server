@@ -13,7 +13,7 @@ cron \
 nano
 
 # Install from pip
-RUN pip3 install --no-cache-dir --upgrade pymssql google-api-python-client requests arrow
+RUN pip3 install --no-cache-dir --upgrade pymssql mysql-connector google-api-python-client requests arrow
 
 # clean up
 RUN apt-get clean && \
