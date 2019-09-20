@@ -1,4 +1,4 @@
-FROM python:3.6-stretch
+FROM python:3.7-buster
 MAINTAINER Me <because.it.needs.atleast.1.arg>
 
 VOLUME /config
